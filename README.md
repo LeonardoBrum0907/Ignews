@@ -1,10 +1,8 @@
-# Ignews
-
-<div>
+<div align="center">
   <img src="src/assets/readme/logo.svg">
 </div>
 
-Essa aplicação é um blog onde o usuário pode assinar um plano de pagamento e ter acesso as postagens.
+##
 
 <div>
   <img width="1100px" src="src/assets/readme/bannerReadme.png">
@@ -16,14 +14,11 @@ Essa aplicação é um blog onde o usuário pode assinar um plano de pagamento e
   
 # Functionalities
 
-- User data validation on login screen.
-- Get user data from a fake API.
-- Lists only 10 users, being able to access the rest through pagination.
-- Cache user data.
-
-# Some Observations about this App
-
-- There's no functionality of Login/Register, only data validation.
+- Authentication with Github.
+- Put data user in FaunaDB.
+- Payment through Stripe API.
+- Render posts through the Prismic API.
+- Validate user signature to render full post.
 
 # Getting Started
 
@@ -32,9 +27,9 @@ Essa aplicação é um blog onde o usuário pode assinar um plano de pagamento e
 **Cloning the Repository**
 
 ```
-$ git clone https://github.com/LeonardoBrum0907/dashgo.git
+$ git clone https://github.com/LeonardoBrum0907/Ignews.git
 
-$ cd dashgo
+$ cd Ignews
 ```
 
 **Installing dependencies**
@@ -52,11 +47,10 @@ $ npm install
 # Built With
 
 - [NextJS](https://nextjs.org/docs) - Build app using ReactJS, NextJS and Typescript.
-- [React-Query](https://react-query-v2.tanstack.com/overview) - React State Manager.
-- [React-Hook-Form](https://react-hook-form.com/get-started) - Form validation.
-- [Apexcharts](https://apexcharts.com/docs/react-charts/) - Create charts.
+- [Next-Auth](https://next-auth.js.org/getting-started/example) - Authentication.
+- [Prismic-CMS](https://prismic.io/docs/technologies/setup-nextjs) - Creation of posts.
+- [Stripe](https://stripe.com/docs/payments?payments=popular) - Payment.
+- [FaunaDB](https://docs.fauna.com/fauna/current/) - Database.
 - [React-Icons](https://react-icons.github.io/react-icons/) - Icons 👨‍💻
 - [Axios](https://axios-http.com/docs/intro) - HTTP Client.
-- [MirageJS](https://miragejs.com/docs/getting-started/introduction/) - Fake API.
-- [FakerJS](https://fakerjs.dev/guide/) - Create random data.
-- [Chakra-UI](https://chakra-ui.com/getting-started/nextjs-guide) - Styles.
+- [SASS](https://sass-lang.com/documentation/) - Styles.
